@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/pirxthepilot/go-kubelet-poc.svg?branch=master)](https://travis-ci.org/pirxthepilot/go-kubelet-poc)
-
 # Go kubelet client proof-of-concept
 
 This program is meant to be run inside a Kubernetes node, and queries the PodList of the kubelet locally (default endpoint is `http://127.0.0.1:10255/pods`).

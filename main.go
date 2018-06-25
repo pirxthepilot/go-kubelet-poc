@@ -14,7 +14,7 @@ type pod struct {
 	Metadata struct {
 		Name      string `json:"name"`
 		Namespace string `json:"namespace"`
-		UID       string `json:"uid"`
+		//UID       string `json:"uid"`
 	} `json:"metadata"`
 	Spec struct {
 		NodeName string `json:"nodeName"`
@@ -23,7 +23,7 @@ type pod struct {
 		Phase     string    `json:"phase"`
 		HostIP    string    `json:"hostIP"`
 		PodIP     string    `json:"podIP"`
-		StartTime time.Time `json:"startTime"`
+		//StartTime time.Time `json:"startTime"`
 	} `json:"status"`
 }
 
